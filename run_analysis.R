@@ -15,7 +15,7 @@ run_analysis <- function(){
     x_merged_raw <- rbind(x_test_raw, x_train_raw)
     
     ## step 2: get all mean and std deviation
-    ## the columns are marked with "xx-mean()" and "xx-std()" names in features.txt for this exercise
+    ## the columns are marked with "mean" and "std" names in features.txt for this exercise
     features_raw <- read.table(header=FALSE, file="features.txt")
     allMean <- grep("mean()", features_raw[,2])
     allStd <- grep("std()", features_raw[,2])
