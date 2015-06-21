@@ -17,6 +17,7 @@ This repo contains three files:
 ### Assumption
 
 - all the required input files (x_train, x_set, etc) already exists in the folder where the workspace is
+- the variables kept contain the word "mean()" and "std()" in it
 
 ### How it Works
 
