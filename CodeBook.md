@@ -36,9 +36,10 @@ LAYING
 Type: character
 
 Description:
-The variable that is measured for each activity. The data only contains the variables that contain the word "mean()" or "std()" inside their names.
+The variable that is measured for each activity. The data only contains the variables that contain the word "mean" or "std" inside their names.
 
 Valid values:
+
 "tBodyAcc-mean()-X"
 
 "tBodyAcc-mean()-Y"
@@ -66,6 +67,7 @@ Valid values:
 "tBodyAccJerk-mean()-X"
 
 "tBodyAccJerk-mean()-Y"
+
 "tBodyAccJerk-mean()-Z"
 
 "tBodyAccJerk-std()-X"
