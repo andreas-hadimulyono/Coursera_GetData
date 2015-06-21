@@ -24,7 +24,7 @@ This repo contains three files:
 The run_analysis scripts follows the workflow outlined below:
 
 1. Merge the two data sets (x_train and x_test). The data is loaded using read.table function, and the merge is performed using rbind function.
-2. Features information is loaded to filter the data set by loading from the features file. In this exercise, it is assumed that the variables to be kept contains "mean()" or "std()". The function grep is used to select the desired variables.
+2. Features information is loaded to filter the data set by loading from the features file. In this exercise, it is assumed that the variables to be kept contains "mean" or "std". The function grep is used to select the desired variables.
 3. After the variable information is loaded, the merged data sets are filtered based on the variables selected in step 2. At the same time, the variable names are stored in another, temporary data frame for later use.
 4. Activity information is loaded from activity_labels file.
 5. The activity data sets (y_train and y_test) are loaded next, and the activity information generated in step 4 is used to translate the data set into more descriptive names.
